@@ -47,6 +47,6 @@ object Task1_1 {
     val merged_fin = merged2.join(all_likes_df, Seq("from_id"))
 
     merged_fin.show(20)
-    //merged_fin.write.parquet("task1.parquet")
+    merged_fin.write.parquet("task1_1.parquet")
   }
 }
