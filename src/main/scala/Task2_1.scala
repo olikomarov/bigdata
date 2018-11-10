@@ -2,8 +2,6 @@ import org.apache.spark.sql.SparkSession
 import org.apache.log4j.Level
 import org.apache.log4j.Logger
 import org.apache.spark.sql.functions._
-import org.apache.spark.sql.types.IntegerType
-
 
 //count of reposts from subscribed and not-subscribed groups
 

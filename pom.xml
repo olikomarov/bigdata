@@ -79,6 +79,12 @@
             <version>2.7.2</version>
         </dependency>
 
+        <dependency>
+            <groupId>com.vdurmont</groupId>
+            <artifactId>emoji-java</artifactId>
+            <version>4.0.0</version>
+        </dependency>
+
     </dependencies>
 
     <groupId>bigdata_itmo</groupId>
