@@ -10,6 +10,7 @@ object Task1_7 {
   def main(args: Array[String]): Unit = {
 
     Logger.getLogger("org").setLevel(Level.ERROR)
+    System.setProperty("hadoop.home.dir", "C:\\hadoop")
 
     println("count of open / closed (e.g. private) groups a user participates in")
 
@@ -40,7 +41,6 @@ object Task1_7 {
     val groups_fin = groups_fin1.toDF(groups_fin2: _*)
 
     groups_fin.show(10)
-
     groups_fin.write.parquet("task1_7.parquet")
   }
 }

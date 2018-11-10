@@ -9,6 +9,7 @@ object Task1_4_1 {
   def main(args: Array[String]): Unit = {
 
     Logger.getLogger("org").setLevel(Level.ERROR)
+    System.setProperty("hadoop.home.dir", "C:\\hadoop")
 
     println("count of incoming (made by other users) comments")
 
@@ -20,12 +21,10 @@ object Task1_4_1 {
     val comments = spark.read.parquet(s"D:\\bigdata_source\\userWallComments.parquet")
     val com_incoming = comments.filter(comments("from_id") =!= comments("post_owner_id"))
 
-    val com_incoming_num = com_incoming.groupBy( "post_owner_id", "post_id")
-      .agg(count("id").alias("incoming_comments_num"))
-    com_incoming_num.show(10)
+    val com_incoming_cnt = com_incoming.groupBy( "post_owner_id", "post_id")
+      .agg(count("id").alias("incoming_comments"))
+    com_incoming_cnt.show(10)
 
-    com_incoming_num.write.parquet("task1_4_1.parquet")
-
-
+    com_incoming_cnt.write.parquet("task1_4_1.parquet")
   }
 }

@@ -9,6 +9,7 @@ object Task1_4_2 {
   def main(args: Array[String]): Unit = {
 
     Logger.getLogger("org").setLevel(Level.ERROR)
+    System.setProperty("hadoop.home.dir", "C:\\hadoop")
 
     println("max and mean incoming comments per post")
 
@@ -20,11 +21,11 @@ object Task1_4_2 {
     val comments = spark.read.parquet(s"D:\\bigdata_source\\userWallComments.parquet")
     val com_incoming = comments.filter(comments("from_id") =!= comments("post_owner_id"))
 
-    val com_incoming_num = com_incoming.groupBy( "post_owner_id", "post_id")
+    val com_incoming_cnt = com_incoming.groupBy( "post_owner_id", "post_id")
       .agg(count("id").alias("incoming_comments_num"))
 
 
-    val incoming_max_mean = com_incoming_num.groupBy("post_owner_id")
+    val incoming_max_mean = com_incoming_cnt.groupBy("post_owner_id")
       .agg(max("incoming_comments_num").alias("incoming_comments_max"),
         mean("incoming_comments_num").alias("incoming_comments_mean"))
 

@@ -8,6 +8,7 @@ object Task1_1 {
   def main(args: Array[String]): Unit = {
 
     Logger.getLogger("org").setLevel(Level.ERROR)
+    System.setProperty("hadoop.home.dir", "C:\\hadoop")
 
     println("count of comments, posts (all), original posts, reposts")
 
@@ -16,7 +17,7 @@ object Task1_1 {
       .master("local[*]")
       .getOrCreate()
 
-    //Posts
+        //Posts
     val posts = spark.read.parquet(s"D:\\bigdata_source\\userWallPosts.parquet")
     val all_posts = posts.groupBy("from_id").count()
     val all_posts_names = Seq("from_id", "all_posts_count")

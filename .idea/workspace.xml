@@ -6,9 +6,15 @@
       <change beforePath="$PROJECT_DIR$/src/main/scala/Task1_1.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Task1_1.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/Task1_2.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Task1_2.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/Task1_3.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Task1_3.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/Task1_4_1.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Task1_4_1.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/Task1_4_2.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Task1_4_2.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/Task1_5_1.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Task1_5_1.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/Task1_5_2.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Task1_5_2.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/Task1_6.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Task1_6.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/Task1_7.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Task1_7.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Task1_1$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Task1_1$.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Task1_2$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Task1_2$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Task1_3$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Task1_3$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Task1_5_2$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Task1_5_2$.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,23 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Task1_5_2.scala" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/Task1_5_2.scala">
+      <file leaf-file-name="Task1_7.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/Task1_7.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="410">
-              <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Task1_5_1.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/Task1_5_1.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="22" column="58" lean-forward="true" selection-start-line="22" selection-start-column="58" selection-end-line="22" selection-end-column="58" />
+            <state relative-caret-position="187">
+              <caret line="42" column="20" lean-forward="true" selection-end-line="45" selection-end-column="1" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
               </folding>
@@ -56,23 +50,23 @@
         <option value="$PROJECT_DIR$/src/main/scala/Test.scala" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/scala/Task6.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/Task1_6.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/Taska.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/Task1_7.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/Task2_2.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/Task2_4a.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/Task2_3a.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/Task2_3b.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/Task2_4b.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/Task2_5.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/Task2_1.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/Task1_1.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/Task1_2.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/Task1_3.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/Task1_4_2.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/Task1_4_1.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/Task1_3.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/Task1_2.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/Task1_1.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/Task1_5_1.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/Task2_5.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/Task1_5_2.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/Task1_6.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/Task1_7.scala" />
       </list>
     </option>
   </component>
@@ -143,7 +137,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Task1_5_2">
+  <component name="RunManager" selected="Application.Task1_7">
+    <configuration name="Task1_4_2" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Task1_4_2" />
+      <module name="bigdata_itmo_course" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
     <configuration name="Task1_5_1" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Task1_5_1" />
       <module name="bigdata_itmo_course" />
@@ -154,18 +153,13 @@
       <module name="bigdata_itmo_course" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="Task2_4b" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Task2_4b" />
+    <configuration name="Task1_6" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Task1_6" />
       <module name="bigdata_itmo_course" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="Task2_5" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Task2_5" />
-      <module name="bigdata_itmo_course" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="Task5" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Task5" />
+    <configuration name="Task1_7" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Task1_7" />
       <module name="bigdata_itmo_course" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -211,19 +205,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.Task2_4b" />
-      <item itemvalue="Application.Task5" />
-      <item itemvalue="Application.Task2_5" />
+      <item itemvalue="Application.Task1_4_2" />
       <item itemvalue="Application.Task1_5_1" />
       <item itemvalue="Application.Task1_5_2" />
+      <item itemvalue="Application.Task1_6" />
+      <item itemvalue="Application.Task1_7" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Task1_7" />
+        <item itemvalue="Application.Task1_6" />
         <item itemvalue="Application.Task1_5_2" />
         <item itemvalue="Application.Task1_5_1" />
-        <item itemvalue="Application.Task2_5" />
-        <item itemvalue="Application.Task5" />
-        <item itemvalue="Application.Task2_4b" />
+        <item itemvalue="Application.Task1_4_2" />
       </list>
     </recent_temporary>
   </component>
@@ -253,11 +247,11 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.24546953" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3607908" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16565809" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16565809" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" />
@@ -285,13 +279,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" lean-forward="true" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="77" column="52" lean-forward="true" selection-start-line="77" selection-start-column="52" selection-end-line="77" selection-end-column="52" />
         </state>
       </provider>
     </entry>
@@ -352,90 +339,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/Task2_1.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="30" lean-forward="true" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/Task2_2.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/Task1_7.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="45" column="1" lean-forward="true" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/Task1_6.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="57" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="57" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/Task1_4_1.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/Task1_2.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/Task1_3.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/Task1_1.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="19" column="57" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="57" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/Task1_4_2.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/Task2_5.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -456,10 +359,87 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/Task2_1.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="71" selection-start-line="11" selection-start-column="71" selection-end-line="11" selection-end-column="71" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/Task2_2.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="11" lean-forward="true" selection-end-line="34" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/Task1_1.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/Task1_2.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="77" column="52" selection-start-line="77" selection-start-column="52" selection-end-line="77" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/Task1_3.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/Task1_4_1.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/Task1_4_2.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="12" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/Task1_5_1.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="22" column="58" lean-forward="true" selection-start-line="22" selection-start-column="58" selection-end-line="22" selection-end-column="58" />
+        <state relative-caret-position="136">
+          <caret line="22" selection-end-line="28" selection-end-column="1" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
           </folding>
@@ -468,10 +448,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/Task1_5_2.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
+        <state relative-caret-position="170">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="55" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/Task1_6.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/Task1_7.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="42" column="20" lean-forward="true" selection-end-line="45" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
           </folding>
         </state>
       </provider>
