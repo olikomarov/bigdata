@@ -8,9 +8,8 @@ import org.apache.log4j.Logger
 object Task2_4b{
   def main(args: Array[String]): Unit = {
 
-
     Logger.getLogger("org").setLevel(Level.ERROR)
-    Logger.getLogger("akka").setLevel(Level.ERROR)
+    System.setProperty("hadoop.home.dir", "C:\\hadoop")
 
     println("aggregate likes per user")
 

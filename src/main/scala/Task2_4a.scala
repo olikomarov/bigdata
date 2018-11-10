@@ -9,6 +9,7 @@ object Task2_4a {
   def main(args: Array[String]): Unit = {
 
     Logger.getLogger("org").setLevel(Level.ERROR)
+    System.setProperty("hadoop.home.dir", "C:\\hadoop")
 
     println("aggregate characteristics for comments per user")
 
@@ -38,6 +39,6 @@ object Task2_4a {
       .withColumnRenamed("profile", "from_id")
 
     comments_stat.show(10)
-    //comments_stat.write.parquet("task24.parquet")
+    comments_stat.write.parquet("task2_4a.parquet")
   }
 }
