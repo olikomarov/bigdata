@@ -3,18 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="dd12d0ef-41a1-4a56-8365-6eb794ea8ba4" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/Task1_1.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Task1_1.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/Task1_2.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Task1_2.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/Task1_3.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Task1_3.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/Task1_4_1.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Task1_4_1.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/Task1_4_2.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Task1_4_2.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/Task1_5_1.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Task1_5_1.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/Task1_5_2.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Task1_5_2.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/Task1_6.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Task1_6.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/Task1_7.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Task1_7.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Task1_1$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Task1_1$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Task1_2$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Task1_2$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Task1_5_2$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Task1_5_2$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/Task2_1.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Task2_1.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/Task2_2.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Task2_2.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -27,11 +17,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Task1_7.scala" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/Task1_7.scala">
+      <file leaf-file-name="Task2_2.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/Task2_2.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="42" column="20" lean-forward="true" selection-end-line="45" selection-end-column="1" />
+            <state relative-caret-position="153">
+              <caret line="9" column="46" lean-forward="true" selection-end-line="34" selection-end-column="1" />
+              <folding>
+                <element signature="e#0#40#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Task2_1.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/Task2_1.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="55" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
               </folding>
@@ -51,13 +53,11 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/scala/Task6.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/Taska.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/Task2_2.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/Task2_4a.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/Task2_3a.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/Task2_3b.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/Task2_4b.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/Task2_5.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/Task2_1.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/Task1_1.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/Task1_2.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/Task1_3.scala" />
@@ -67,6 +67,8 @@
         <option value="$PROJECT_DIR$/src/main/scala/Task1_5_2.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/Task1_6.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/Task1_7.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/Task2_2.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/Task2_1.scala" />
       </list>
     </option>
   </component>
@@ -137,12 +139,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Task1_7">
-    <configuration name="Task1_4_2" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Task1_4_2" />
-      <module name="bigdata_itmo_course" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
+  <component name="RunManager" selected="Application.Task2_2">
     <configuration name="Task1_5_1" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Task1_5_1" />
       <module name="bigdata_itmo_course" />
@@ -160,6 +157,11 @@
     </configuration>
     <configuration name="Task1_7" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Task1_7" />
+      <module name="bigdata_itmo_course" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="Task2_2" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Task2_2" />
       <module name="bigdata_itmo_course" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -205,19 +207,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.Task1_4_2" />
       <item itemvalue="Application.Task1_5_1" />
       <item itemvalue="Application.Task1_5_2" />
       <item itemvalue="Application.Task1_6" />
       <item itemvalue="Application.Task1_7" />
+      <item itemvalue="Application.Task2_2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Task2_2" />
         <item itemvalue="Application.Task1_7" />
         <item itemvalue="Application.Task1_6" />
         <item itemvalue="Application.Task1_5_2" />
         <item itemvalue="Application.Task1_5_1" />
-        <item itemvalue="Application.Task1_4_2" />
       </list>
     </recent_temporary>
   </component>
@@ -247,11 +249,11 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3607908" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3607908" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16565809" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16565809" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" />
@@ -359,26 +361,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/Task2_1.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="71" selection-start-line="11" selection-start-column="71" selection-end-line="11" selection-end-column="71" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/Task2_2.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="11" lean-forward="true" selection-end-line="34" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/Task1_1.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -468,8 +450,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/Task1_7.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="42" column="20" lean-forward="true" selection-end-line="45" selection-end-column="1" />
+        <state relative-caret-position="159">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/Task2_2.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="46" lean-forward="true" selection-end-line="34" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/Task2_1.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="55" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
           </folding>

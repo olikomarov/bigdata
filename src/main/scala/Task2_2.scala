@@ -8,6 +8,7 @@ object Task2_2 {
   def main(args: Array[String]): Unit = {
 
     Logger.getLogger("org").setLevel(Level.ERROR)
+    System.setProperty("hadoop.home.dir", "C:\\hadoop")
 
     println("count of deleted users in friends and followers")
 
@@ -29,7 +30,6 @@ object Task2_2 {
     val col = Seq("from_id", "act_friends", "deact_friends")
     val friends_res = merged.toDF(col: _*)
     friends_res.show(10)
-   friends_res.write.parquet("task2_2.parquet")
-
+    friends_res.write.parquet("task2_2.parquet")
   }
 }
